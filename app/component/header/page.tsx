@@ -9,7 +9,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   function changeTheme() {
-    setTheme((prev) => ({
+    setTheme((prev:any) => ({
       backgroundColor:
         prev.backgroundColor === "white" ? "black" : "white",
       textColor:
