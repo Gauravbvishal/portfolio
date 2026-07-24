@@ -31,8 +31,8 @@ const projects = [
       "PostgreSQL",
       "Tailwind CSS",
     ],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Gauravbvishal/feedback-management-system",
+    demo: "https://feedback-management-system-35hs.vercel.app/admin/dashboard",
   },
   {
     id: 3,
@@ -46,8 +46,8 @@ const projects = [
       "JWT",
       "Tailwind CSS",
     ],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Gauravbvishal/careerhub-frontend",
+    demo: "https://careerhub-frontend.vercel.app/",
   },
 ];
 
