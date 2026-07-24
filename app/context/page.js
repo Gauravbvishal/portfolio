@@ -6,7 +6,7 @@ export const UserContext = createContext();
 
 export default function ContextProvider({ children }) {
     const [theme, setTheme] = useState({
-        backgroundColor: "white",
+        backgroundColor: "#cccccc",
         textColor: "black",
     });
 

@@ -11,9 +11,9 @@ export default function Header() {
   function changeTheme() {
     setTheme((prev:any) => ({
       backgroundColor:
-        prev.backgroundColor === "white" ? "black" : "white",
+        prev.backgroundColor === "#cccccc" ? "black" : "#cccccc",
       textColor:
-        prev.textColor === "black" ? "white" : "black",
+        prev.textColor === "black" ? "#cccccc": "black",
     }));
   }
 

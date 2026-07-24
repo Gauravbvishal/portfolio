@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 export default function Contact() {
   return (
     <section className="min-h-screen py-20 px-6">
@@ -24,7 +24,7 @@ export default function Contact() {
 
               <div className="space-y-3">
                 <p>
-                  <strong>Email:</strong> your.email@example.com
+                  <strong>Email:</strong>vishalgaurav785@gmail.com
                 </p>
 
                 <p>
@@ -32,7 +32,7 @@ export default function Contact() {
                 </p>
 
                 <p>
-                  <strong>Role:</strong> MERN Stack Developer
+                  <strong>Role:</strong> Software Developer
                 </p>
               </div>
             </div>
@@ -40,10 +40,9 @@ export default function Contact() {
             <div className="border rounded-xl p-6 shadow">
               <h2 className="text-2xl font-bold mb-4">Follow Me</h2>
 
-              <div className="space-y-3">
-                <p>GitHub</p>
-                <p>LinkedIn</p>
-                <p>Portfolio</p>
+              <div className="space-y-3 flex gap-4">
+                <Link href='https://www.linkedin.com/in/vishal785/?skipRedirect=true' className="text-blue-800">LinkedIn</Link>
+                <Link href='https://github.com/Gauravbvishal' className="text-blue-800">Github</Link>
               </div>
             </div>
           </div>
